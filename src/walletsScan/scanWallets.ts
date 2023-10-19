@@ -27,9 +27,7 @@ interface WalletScanConfig {
     defaultRequestsPerMinute: number;
 }
 
-const chainConfig: Chain[] = getChainsConfig();
 const CONFIG = createConfig();
-
 const AXIOS_INSTANCE = axios.create({
     validateStatus: () => true
 });
@@ -84,7 +82,8 @@ const COIN_CONTRACT_TITLE = "Coin contract";
 })();
 
 function getChains() {
-    const chains: Chain[] = chainConfig
+    const chainsConfig = getChainsConfig();
+    const chains: Chain[] = chainsConfig
         .filter(c => c.isEnabled || c.isEnabled === undefined)
         .map((item: Chain) => {
             if (item.ankrRpcName) {
@@ -92,6 +91,9 @@ function getChains() {
             }
             if (!item.tokens) {
                 item.tokens = [];
+            }
+            if (item.isTestNetwork === undefined) {
+                item.isTestNetwork = false;
             }
             return item;
         });
