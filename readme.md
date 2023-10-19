@@ -38,11 +38,13 @@
     "isTestNetwork": "[опционально] true | false - ставим true если это тестовая сеть и мы хотим считать значение в $ = 0"
    }
    ```
-   Найти нужный `coinGeckoCoinId` можно [тут](https://github.com/web3-toolkit/wallets-scan/blob/main/resource/config/walletsScan/coingeckoSupportedTokens.csv)
+   Найти нужный `coinGeckoCoinId` можно
+[тут](https://raw.githubusercontent.com/web3-toolkit/wallets-scan/main/resource/config/walletsScan/coingeckoSupportedTokens.csv?token=GHSAT0AAAAAACISRUWGDTFLKEJXYWX53LWQZJRUHYA)
+   (первая колонка - id)
    
-   Если нужна инфа только по нативному токену `tokens` можно пропустить
+   Если нужна инфа только по нативному токену - `tokens` можно пропустить
 
-   При создании `chainConfig.json` [сети](https://github.com/web3-toolkit/wallets-scan/blob/main/src/walletsScan/chainConfigDefault.json) по умолчанию не будут использоваться.
+   При создании `chainConfig.json`, [сети](https://github.com/web3-toolkit/wallets-scan/blob/main/src/walletsScan/chainConfigDefault.json) доступные по умолчанию, использоваться не будут.
 
 Для ускорения работы
 1. Создаем файл `.properties` в `wallets-scan/resource/config/walletsScan`
