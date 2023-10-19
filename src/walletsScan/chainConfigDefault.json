@@ -123,12 +123,14 @@
   {
     "name": "Klaytn",
     "ankrRpcName": "klaytn",
-    "coinGeckoCoinId": "klay-token"
+    "coinGeckoCoinId": "klay-token",
+    "isEnabled": false
   },
   {
     "name": "Dfk",
     "rpcUrl": "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc",
-    "coinGeckoCoinId": "defi-kingdoms"
+    "coinGeckoCoinId": "defi-kingdoms",
+    "isEnabled": false
   },
   {
     "name": "ZkSync",
@@ -150,6 +152,7 @@
   {
     "name": "Goerli",
     "ankrRpcName": "eth_goerli",
-    "coinGeckoCoinId": "ethereum"
+    "coinGeckoCoinId": "ethereum",
+    "isTestNetwork": true
   }
 ]
