@@ -1,0 +1,30 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "prestart": "npm run build",
+    "scanWallets": "npm run prestart && node dist/walletsScan/scanWallets.js",
+    "coingeckoSupportedTokens": "npm run prestart && node dist/walletsScan/coingeckoSupportedTokens.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "20.4.1",
+    "@types/properties-reader": "2.1.1",
+    "rimraf": "5.0.1",
+    "ts-node": "10.9.1",
+    "typescript": "5.1.6"
+  },
+  "dependencies": {
+    "axios": "1.5.0",
+    "csv-writer": "1.6.0",
+    "ethers": "6.6.3",
+    "limiter": "2.1.0",
+    "properties-reader": "2.3.0"
+  },
+  "type": "module",
+  "main": "index.js",
+  "description": ""
+}

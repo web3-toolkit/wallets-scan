@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Optimism",
+    "ankrRpcName": "optimism",
+    "coinGeckoCoinId": "ethereum",
+    "tokens": [
+      {
+        "name": "Usdt",
+        "coinGeckoCoinId": "tether",
+        "contract": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
+      },
+      {
+        "name": "Usdc",
+        "coinGeckoCoinId": "usd-coin",
+        "contract": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
+      }
+    ]
+  },
+  {
+    "name": "Arbitrum",
+    "ankrRpcName": "arbitrum",
+    "coinGeckoCoinId": "ethereum",
+    "tokens": [
+      {
+        "name": "Usdt",
+        "coinGeckoCoinId": "tether",
+        "contract": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+      },
+      {
+        "name": "Usdc",
+        "coinGeckoCoinId": "usd-coin",
+        "contract": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      }
+    ]
+  },
+  {
+    "name": "Polygon",
+    "ankrRpcName": "polygon",
+    "coinGeckoCoinId": "matic-network",
+    "tokens": [
+      {
+        "name": "Usdt",
+        "coinGeckoCoinId": "tether",
+        "contract": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      {
+        "name": "Usdc",
+        "coinGeckoCoinId": "usd-coin",
+        "contract": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+      },
+      {
+        "name": "AgEur",
+        "coinGeckoCoinId": "ageur",
+        "contract": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
+      }
+    ]
+  },
+  {
+    "name": "Avax",
+    "ankrRpcName": "avalanche",
+    "coinGeckoCoinId": "avalanche-2",
+    "tokens": [
+      {
+        "name": "Usdt",
+        "coinGeckoCoinId": "tether",
+        "contract": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
+      },
+      {
+        "name": "Usdc",
+        "coinGeckoCoinId": "usd-coin",
+        "contract": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+      }
+    ]
+  },
+  {
+    "name": "Bsc",
+    "ankrRpcName": "bsc",
+    "coinGeckoCoinId": "binancecoin",
+    "tokens": [
+      {
+        "name": "Usdt",
+        "coinGeckoCoinId": "tether",
+        "contract": "0x55d398326f99059ff775485246999027b3197955"
+      }
+    ]
+  },
+  {
+    "name": "Fantom",
+    "ankrRpcName": "fantom",
+    "coinGeckoCoinId": "fantom",
+    "tokens": [
+      {
+        "name": "Usdc",
+        "coinGeckoCoinId": "usd-coin",
+        "contract": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75"
+      }
+    ]
+  },
+  {
+    "name": "Celo",
+    "ankrRpcName": "celo",
+    "coinGeckoCoinId": "celo",
+    "tokens": [
+      {
+        "name": "AgEur",
+        "coinGeckoCoinId": "ageur",
+        "contract": "0xC16B81Af351BA9e64C1a069E3Ab18c244A1E3049"
+      }
+    ]
+  },
+  {
+    "name": "Gnosis",
+    "ankrRpcName": "gnosis",
+    "coinGeckoCoinId": "xdai",
+    "tokens": [
+      {
+        "name": "AgEur",
+        "coinGeckoCoinId": "ageur",
+        "contract": "0x4b1E2c2762667331Bc91648052F646d1b0d35984"
+      }
+    ]
+  },
+  {
+    "name": "Klaytn",
+    "ankrRpcName": "klaytn",
+    "coinGeckoCoinId": "klay-token"
+  },
+  {
+    "name": "Dfk",
+    "rpcUrl": "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc",
+    "coinGeckoCoinId": "defi-kingdoms"
+  },
+  {
+    "name": "ZkSync",
+    "ankrRpcName": "zksync_era",
+    "coinGeckoCoinId": "ethereum",
+    "tokens": [
+      {
+        "name": "Usdc",
+        "coinGeckoCoinId": "usd-coin",
+        "contract": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4"
+      },
+      {
+        "name": "Usdt",
+        "coinGeckoCoinId": "tether",
+        "contract": "0x493257fD37EDB34451f62EDf8D2a0C418852bA4C"
+      }
+    ]
+  },
+  {
+    "name": "Goerli",
+    "ankrRpcName": "eth_goerli",
+    "coinGeckoCoinId": "ethereum"
+  }
+]
