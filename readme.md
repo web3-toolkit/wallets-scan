@@ -11,7 +11,7 @@
 Для добавления своих сетей или токенов, а также ускорения работы скрипта см "Продвинутый запуск"
 
 <details>
-<summary>Продвинутый запуск</summary>
+<summary><b>Продвинутый запуск</b></summary>
 Для добавления своих сетей
 
 1. Создаем `chainConfig.json` в `wallets-scan/resource/config/walletsScan`. Пример структуры файла можно посмотреть [тут](https://github.com/web3-toolkit/wallets-scan/blob/main/src/walletsScan/chainConfigDefault.json).
@@ -50,3 +50,7 @@
 3. `RPC_REQUESTS_PER_MINUTE=300` - сколько запросов в минуту можно делать своей рпц ( не анкр )
    
 </details>
+
+**Обсудить / вопросы / пожелания**
+
+https://t.me/web3_toolkit
