@@ -7,7 +7,7 @@
 4. результат `balances.csv` будет в папке со скриптом
 
 Из коробки поддерживаются следующие сети и их основные стейблы:
-`Optimism, Arbitrum, Polygon, Avax, Bsc, Fantom, Celo, Gnosis, ZkSync`
+`Optimism, Arbitrum, Polygon, Avax, Bsc, Fantom, Celo, Gnosis, ZkSync, Linea, Base`
 Для добавления своих сетей или токенов, а также ускорения работы скрипта см "Продвинутый запуск"
 
 <details>

@@ -37,7 +37,8 @@ const ANKR_LIMITER = new CompoundRateLimiter(
     {tokensPerInterval: 30, interval: "second"},
 );
 const DEFAULT_LIMITER = new CompoundRateLimiter(
-    {tokensPerInterval: CONFIG.defaultRequestsPerMinute, interval: "minute"}
+    {tokensPerInterval: CONFIG.defaultRequestsPerMinute, interval: "minute"},
+    {tokensPerInterval: 20, interval: "second"}
 );
 const TOKEN_NAMES_MAP = getTokenNamesMap();
 

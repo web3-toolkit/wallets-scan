@@ -150,6 +150,35 @@
     ]
   },
   {
+    "name": "Linea",
+    "rpcUrl": "https://linea.blockpi.network/v1/rpc/public",
+    "coinGeckoCoinId": "ethereum",
+    "tokens": [
+      {
+        "name": "Usdc",
+        "coinGeckoCoinId": "usd-coin",
+        "contract": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff"
+      },
+      {
+        "name": "Usdt",
+        "coinGeckoCoinId": "tether",
+        "contract": "0xa219439258ca9da29e9cc4ce5596924745e12b93"
+      }
+    ]
+  },
+  {
+    "name": "Base",
+    "ankrRpcName": "base",
+    "coinGeckoCoinId": "ethereum",
+    "tokens": [
+      {
+        "name": "Usdc",
+        "coinGeckoCoinId": "usd-coin",
+        "contract": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      }
+    ]
+  },
+  {
     "name": "Goerli",
     "ankrRpcName": "eth_goerli",
     "coinGeckoCoinId": "ethereum",
